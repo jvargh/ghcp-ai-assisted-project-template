@@ -1,6 +1,24 @@
 # AI-Assisted Project Development: Options & Patterns
 
-This guide outlines multiple approaches for building a project (e.g., the [Survey App](Survey-App.md)) using GitHub Copilot's customization features — prompts, instruction files, agents, and skills — ranging from simple to fully orchestrated.
+This guide outlines multiple approaches for building a project using GitHub Copilot's customization features - prompts, instruction files, agents, and skills - ranging from simple to fully orchestrated.
+
+---
+
+## Getting Started
+
+### Step 1: Pick a Use-Case
+
+Choose a project idea from one of the 3 tiers below (based on your comfort level):
+
+| Tier | Level | Link |
+| --- | --- | --- |
+| Tier 1 | Beginner | [Beginner Projects](https://github.com/florinpop17/app-ideas#tier-1-beginner-projects) |
+| Tier 2 | Intermediate | [Intermediate Projects](https://github.com/florinpop17/app-ideas?tab=readme-ov-file#tier-2-intermediate-projects) |
+| Tier 3 | Expert | [Advanced Projects](https://github.com/florinpop17/app-ideas?tab=readme-ov-file#tier-3-advanced-projects) |
+
+### Step 2: Pick a Pattern
+
+Once you have your use-case, choose one of the development patterns below (Option 1 onwards) to build it with GitHub Copilot. Each option increases in sophistication - start simple and graduate to more advanced patterns as needed.
 
 ---
 
