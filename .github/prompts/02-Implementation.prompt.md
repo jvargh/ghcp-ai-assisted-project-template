@@ -1,9 +1,11 @@
 ---
 name: 02-Implementation
-description: Phased, milestone-based implementation guided by Survey-App.md, docs/requirements.md, and .github/copilot-instructions.md.
+description: Phased, milestone-based implementation guided by the app spec, docs/requirements.md, and .github/copilot-instructions.md.
 ---
 
-Begin the implementation using a phased, milestone-based approach. All work must align with `Survey-App.md`, `docs/requirements.md`, and the repository instructions, with `.github/copilot-instructions.md` serving as the primary implementation guide.
+> **Usage:** Attach your application specification markdown file to the chat when running this prompt.
+
+Begin the implementation using a phased, milestone-based approach. All work must align with the app spec document, `docs/requirements.md`, and the repository instructions, with `.github/copilot-instructions.md` serving as the primary implementation guide.
 
 ---
 
@@ -20,7 +22,7 @@ Organize the project into incremental phases, where each phase delivers a clearl
 Before starting a phase:
 
 - Define the phase objective and expected deliverables.
-- Map planned work to `Survey-App.md` and `docs/requirements.md`.
+- Map planned work to the app spec and `docs/requirements.md`.
 - Identify the specific modules, components, services, routes, or infrastructure to be added or updated.
 - Confirm dependencies from prior phases are complete.
 - Keep the phase limited to a focused and achievable scope.
@@ -105,7 +107,7 @@ Implementation should follow a structure similar to the planning approach:
 | ------------------------------ | ----------------------------------------------- |
 | Primary guidance               | `.github/copilot-instructions.md`               |
 | Requirements baseline          | `docs/requirements.md`                          |
-| Source requirements reference  | `Survey-App.md`                                 |
+| Source requirements reference  | App spec (attached to chat)                     |
 | Supporting guidance            | Additional files under `/instructions` if needed |
 
 ---
@@ -117,6 +119,6 @@ Continue phase by phase until the full application is delivered.
 The final state should ensure:
 
 - All planned phases are completed.
-- All requirements from `Survey-App.md` and `docs/requirements.md` are satisfied.
+- All requirements from the app spec and `docs/requirements.md` are satisfied.
 - Documentation accurately reflects the implemented system.
 - The application is stable, maintainable, and ready for further development or deployment.

@@ -3,9 +3,11 @@ name: 01-Scaffolding
 description: Create the initial project planning scaffold with documentation, Copilot instructions, and requirements — no application code.
 ---
 
+> **Usage:** Attach your application specification markdown file to the chat when running this prompt.
+
 Create the initial planning scaffold for the project. **Do not implement any application code.** The objective is to establish a best-practices project structure, a top-level Copilot instruction file, and a `requirements.md` that will guide future development.
 
-All planning and documentation must be derived from `Survey-App.md`, which defines the functional and product requirements of the application.
+All planning and documentation must be derived from the attached application specification document (referred to as **"the app spec"** throughout this prompt), which defines the functional and product requirements of the application.
 
 ---
 
@@ -60,7 +62,7 @@ This file acts as the primary guidance document for development agents and contr
 
 #### Source of Requirements
 
-- The system requirements are defined in `Survey-App.md`.
+- The system requirements are defined in the app spec document provided in the repository root.
 - All implementation must align with the functionality described in that document.
 - `docs/requirements.md` translates those product requirements into a technical architecture.
 
@@ -94,7 +96,7 @@ This file acts as the primary guidance document for development agents and contr
 
 Each completed phase must include:
 
-- Validation against requirements derived from `Survey-App.md`
+- Validation against requirements derived from the app spec
 - Confirmation that architectural boundaries are maintained
 - Documentation updates where appropriate
 
