@@ -63,7 +63,7 @@ Then open the worktree folder in VS Code and ensure Copilot Chat is in **Agent**
 
 ---
 
-## Option 1: Two-Prompt Sequential (`.github1/`)
+## Option 1: Two-Step Prompt Sequential Pattern (`.github1/`)
 
 **Components:** `copilot-instructions.md` + 2 prompt files
 
@@ -87,7 +87,7 @@ Then open the worktree folder in VS Code and ensure Copilot Chat is in **Agent**
 
 ---
 
-## Option 2: 8-Prompt Pipeline (`.github2/`)
+## Option 2: Prompt Pipeline Pattern (`.github2/`)
 
 **Components:** `copilot-instructions.md` + 8 prompt files (one per phase)
 
@@ -118,7 +118,7 @@ Then open the worktree folder in VS Code and ensure Copilot Chat is in **Agent**
 
 ---
 
-## Option 3: Instruction Files + Single Prompt (`.github3/`)
+## Option 3: Single-Command Orchestrated Pattern - Instruction Files + Single Prompt (`.github3/`)
 
 **Components:** `copilot-instructions.md` + 5 instruction files + 1 prompt
 
@@ -148,7 +148,7 @@ Instruction files auto-apply by file pattern. The prompt also **explicitly reads
 
 ---
 
-## Option 4: Custom Agent (`.github4/`)
+## Option 4: App Builder Custom Agent Pattern (`.github4/`)
 
 **Components:** `copilot-instructions.md` + 1 custom agent
 
@@ -180,7 +180,7 @@ The agent encapsulates the full lifecycle: project setup → feature implementat
 
 ---
 
-## Option 5: Multi-Agent Specialization (`.github5/`)
+## Option 5: Multi-Agent Collaboration Pattern (`.github5/`)
 
 **Components:** `copilot-instructions.md` + 5 specialized agents
 
@@ -222,7 +222,7 @@ Each agent has **scoped tool access** and **file boundaries**:
 
 ---
 
-## Option 6: Skills + Agent Orchestration (`.github6/`)
+## Option 6:Orchestrated Agent System with Skills Pattern (`.github6/`)
 
 **Components:** `copilot-instructions.md` + 2 instruction files + 1 orchestrator agent + 2 prompts + 4 skills
 
